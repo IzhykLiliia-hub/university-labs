@@ -1,0 +1,6 @@
+A=set(map(int,input("Введіть числа множини А: ").split()))
+B=set(map(int,input("Введіть числа множини В: ").split()))
+print("Перетин A та B:",A&B)
+print("Обєднання A та B:",A|B)
+print("Різниця A та B:",B-A)
+print("Чи належить число 8 множині B?",8 in B)
